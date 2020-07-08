@@ -1,0 +1,26 @@
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1.5em;
+}
+.calender ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 3em;
+    height: 70px;;
+    background-color: lightseagreen;
+    color: maroon;
+}
+.calender .other-month{
+    background-color: lightslategray;
+    color: blanchedalmond;
+}
+.calender .day{
+    color: red;
+    background-color: yellowgreen;
+}
+.calender li:hover{
+    background-color: thistle;
+}
